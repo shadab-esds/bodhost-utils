@@ -26,7 +26,7 @@ def read_requirements(filename):
 REQUIREMENTS = read_requirements("requirements.txt")
 
 setuptools.setup(
-    name='rapidbuilder_api_utils',
+    name='bodhost_api_utils',
     version='1.0.0',
     author='Shadab Khan',
     description='Rapid Builder api related libraries.',
