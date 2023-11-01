@@ -6,8 +6,8 @@ import jwt
 import requests
 from flask import current_app
 
-from rapidbuilder_api_utils.exceptions import BusinessException
-from rapidbuilder_api_utils.utils import cache
+from bodhost_utils.exceptions import BusinessException
+from bodhost_utils.utils import cache
 
 
 class FormioService:
