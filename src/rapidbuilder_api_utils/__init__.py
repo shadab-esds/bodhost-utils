@@ -1,6 +1,6 @@
-"""The bodHOST API service."""
+"""The Rapid Builder API service."""
 
-from bodhost_utils.utils.startup import (
+from rapidbuilder_api_utils.utils.startup import (
     collect_role_ids,
     setup_jwt_manager,
     collect_user_resource_ids,

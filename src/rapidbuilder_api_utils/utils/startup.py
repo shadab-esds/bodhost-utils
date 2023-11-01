@@ -4,11 +4,11 @@ Functions to initialize app and startup
 
 """
 from typing import Dict
-from bodhost_utils.exceptions import BusinessException
-from bodhost_utils.schemas import FormioRoleSchema
-from bodhost_utils.services.external import FormioService
-from bodhost_utils.utils import cache
-from bodhost_utils.utils.enums import FormioRoles
+from rapidbuilder_api_utils.exceptions import BusinessException
+from rapidbuilder_api_utils.schemas import FormioRoleSchema
+from rapidbuilder_api_utils.services.external import FormioService
+from rapidbuilder_api_utils.utils import cache
+from rapidbuilder_api_utils.utils.enums import FormioRoles
 
 
 def setup_jwt_manager(app, jwt_manager):
